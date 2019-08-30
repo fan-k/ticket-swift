@@ -11,13 +11,13 @@ import UIKit
 
 
 extension UIViewController{
-    func handelRequestSuccessWithItem() {
+    @objc func handelRequestSuccessWithItem() {
         
     }
-    func handelRequestFailureWithItem() {
+    @objc func handelRequestFailureWithItem() {
         
     }
-    func requestWithItem(item:RequestItem){
+    @objc func requestWithItem(item:RequestItem){
         
     }
 }

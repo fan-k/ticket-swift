@@ -29,5 +29,11 @@ class HomeController: BaseController {
 //        self.requestWithItem(item: "")
     }
     
+    override func handelRequestSuccessWithItem() {
+        
+    }
+    override func handelRequestFailureWithItem() {
+        
+    }
     
 }
